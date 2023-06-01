@@ -1,0 +1,44 @@
+.conatiner{
+    text-align: center;
+    margin-top: 120px;
+}
+table{
+    margin: auto;
+}
+body {
+   
+    background-image: url('back.jpg');
+    background-repeat: no-repeat cover center center;
+    background-size: 1550px 800px;
+  
+}
+input{
+    font-size: 33px;
+   border: 4px solid;
+   border-radius: 8px;
+}
+button{
+    font-size: 31px;
+    background-color: rgb(134 207 240);
+    width: 100px;
+    height: 60px;
+    margin: 7px;
+    border-radius: 20px;
+}
+.calculator{
+    border: 4px solid rgb(19, 18, 18);
+    border-radius: 51px ;
+    display: inline-block;
+    background-color: rgb(16, 224, 57);
+    padding: 9px;
+    background-color: revert;
+}
+h1{
+
+    color: rgb(12, 13, 13);
+}
+.ti{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+}

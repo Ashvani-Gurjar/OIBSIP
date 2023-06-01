@@ -1,0 +1,88 @@
+html,body{
+   height: 100%;
+   width: 100%;
+   background-image: linear-gradient(
+      to bottom right,
+      rgb(144 204 164),
+      rgb(187 185 205)
+    );
+}
+
+.box{
+   background-color: red;
+   width: 45%;
+   height: 35%;
+}
+
+h1{
+   text-align: center;
+   margin-top: 135px;
+   font-size: 58px;
+   font-family: cursive;
+   margin-left: 52px;
+}
+
+#button > button,a,button{
+   width: 111px;
+   border-radius: 15px;
+   height: 39px;
+   font-weight: bold;
+   
+}
+#button >a>button{
+   width: 111px;
+     border-radius: 15px;
+     font-size: large;
+    height: 39px;
+    font-weight: bold;
+   background-color: darkseagreen;
+   margin-left: 60px;
+}
+#button > button{
+  
+   font-size: large;
+   margin-left: 131px;
+   background-color: darkseagreen;
+}
+
+
+#test{
+   display: flex;
+   flex-direction: column;
+   width: 494px;
+   height: 253px;
+   margin: auto;
+   border-radius: 37px;
+   margin-top: 33px;
+   padding: 22px;
+   /* background-color: red; */
+   border: solid 3px black;
+}
+
+#task{
+   border-radius: 9px;
+    height: 34px;
+    width: 264px;
+    text-align: center;
+}
+#detail{
+   border-radius: 9px;
+    height: 34px;
+    width: 264px;
+    text-align: center;
+}
+
+#test> div{
+   
+   margin: 21px;
+}
+ .detail{
+   margin-left: 62px;
+ }
+
+#test> div > label{
+   margin-right: 10px;
+   font-size: 31px;
+
+}
+

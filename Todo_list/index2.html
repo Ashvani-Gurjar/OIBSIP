@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    
+    <h3>Items</h3>
+    
+  <div class="all">
+    <div>
+        <select name="" id="sort_List" onchange="sorttodo()">
+            <option value="">Order</option>
+            <option value="Asc">ASC</option>
+            <option value="Desc">DSEC</option>
+        </select>
+    </div>
+    <div id="Search_div">
+        <input type="search" id="input_Search_Task"  placeholder="Task Name">
+        <button id="Search_btn" >Submit</button>
+    </div>
+    <div id="edit_div">
+        <input type="text" id="input_task" placeholder="Task Name"> <br>
+        <input type="text" id="input_detail" placeholder=" Detail"> <br>
+        <button id="edit_bin" >Submit</button>
+    </div>
+   <div id="result">
+   </div>
+</div>
+
+</body>
+
+<script src="./script2.js"></script>
+
+</html>
